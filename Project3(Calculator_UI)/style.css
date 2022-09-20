@@ -7,17 +7,17 @@ table{
     
 }
 table,td {
-        border: 3px solid black;
+        border: 3px solid red;
         text-align: center;
      }
 td{
-    height:60px;
-    width:60px;
+    height:80px;
+    width:100px;
     
 }
 #calc{
- width: 250px;
-border: 3px solid black;
+ width: 350px;
+border: 3px solid red;
 border-radius: 3px;
 padding: 20px;
 margin: auto;
@@ -25,8 +25,14 @@ margin: auto;
 button{
     font-size:20px;
     height:40px;
-    width:40px;
+    width:70px;
 }
+.button6{
+    font-size:20px;
+      height: 75px;
+        width:350px;
+  }  
+
 
 
 @media only screen and (max-width: 600px) {
@@ -52,3 +58,4 @@ table{
         margin-left:190px;
     }
     }
+
